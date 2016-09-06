@@ -140,7 +140,7 @@ Deliverables --
 - Compiled and working code for the process-pool, and thread-pool
 execution models. We will evaluate your code using the --test option
 described above. Each execution model will be tested at pool sizes
-of 1, 2, 4, 8, 16, 32, 64, 128, 256. Note that passing
+of 1, 2, 4, 8, 16, 24, 32, 64, 128, 256. Note that passing
 these test cases is the only way to earn credit for your code. We will
 award no points for code that does not pass _all_ test cases.
 
@@ -152,8 +152,7 @@ award no points for code that does not pass _all_ test cases.
 size or the maximum outstanding requests parameter. You must report
 throughput for all four execution models (process-per-request,
 thread-per-request, thread-pool, and process-pool). Measure throughput
-at the following parameter values [1, 2, 4, 6, 8, 12, 16, 32, 64,
-128, 256]. 
+at the following parameter values [1, 2, 4, 8, 16, 24, 32, 64, 128, 256]. 
 
 Report these throughput measurements under both high contention and
 low contention in text files "high-contention.txt" and

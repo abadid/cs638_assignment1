@@ -13,7 +13,7 @@
 #include <perf_monitor.h>
 
 #define 	TXN_SZ			50
-#define 	LOW_DATABASE_SZ 	1000000
+#define 	LOW_DATABASE_SZ 	10000000
 #define 	HIGH_DATABASE_SZ 	500
 #define 	DRY_RUN_SZ		1000
 #define 	NUM_REQS		2000000
